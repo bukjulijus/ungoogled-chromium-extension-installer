@@ -1,0 +1,12 @@
+{
+  "name": "ungoogled-chromium-extension-installer",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "author": "Julius Bukauskas",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "ungoogled-chromium Extension Installer",
+    "default_icon": "icon-grey.svg"
+  },
+  "permissions": ["activeTab"]
+}

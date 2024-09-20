@@ -1,0 +1,24 @@
+{
+  "name": "ungoogled-chromium-extension-installer",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Julius Bukauskas",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/chrome": "^0.0.271",
+    "svelte-check": "^3.8.5",
+    "svelte": "^4.2.18",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3",
+    "user-agent-data-types": "^0.4.2",
+    "vite": "^5.4.1"
+  }
+}
