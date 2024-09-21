@@ -50,12 +50,16 @@
     display: block;
   }
 
-  button:hover {
+  button:hover:not(:disabled) {
     cursor: pointer;
     filter: invert();
   }
 
-  button:active {
+  button:active:not(:disabled) {
     opacity: 0.9;
+  }
+
+  button:disabled {
+    opacity: 0.4;
   }
 </style>

@@ -6,7 +6,7 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "ungoogled-chromium Extension Installer",
-    "default_icon": "icon-grey.svg"
+    "default_icon": "icon-blue.png"
   },
   "permissions": ["activeTab"]
 }
